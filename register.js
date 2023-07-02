@@ -13,6 +13,6 @@ document.getElementById("register-form").addEventListener("submit", function(eve
   
     // Perform registration (Dummy registration for demonstration)
     alert("Registration successful!");
-    window.location.href = "first.html";
+    window.location.href = "index.html";
   });
   
