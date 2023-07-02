@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transaction</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container1">
+      <h1>Transaction details</h1>
+      <p>
+        Select Your Bank :
+        <select name="bank" id="bank">
+          <option value="none" selected disabled hidden>
+            Select the Option
+          </option>
+          <option value="SBI">SBI</option>
+          <option value="Axis">Axis</option>
+          <option value="Canara">Canara</option>
+          <option value="HDFC">HDFC</option>
+        </select>
+      </p>
+      <p>
+        Select Your Card Type :
+        <select name="cardtype" id="cardtype">
+          <option value="none" selected disabled hidden>
+            Select the Option
+          </option>
+          <option value="Credit Card">Credit Card</option>
+          <option value="Debit Card">Debit Card</option>
+        </select>
+      </p>
+      <input type="text" id="Card no." placeholder="Card no." />
+      <input type="text" id="CVV" placeholder="CVV" />
+      <button id="otp">Send OTP</button>
+      <p>
+        Enter the OTP Sent to you registered Mobile No. :
+        <input type="text" id="amount" placeholder="Enter OTP" />
+      </p>
+      <button id="submit">Submit</button>
+    </div>
+    <script src="paymentgateway.js"></script>
+  </body>
+</html>
